@@ -1,0 +1,99 @@
+= Atributos para eventos en HTML
+Html permite detectar eventos cuando el usuario o el mismo navegador hacen determinada accion, a continuacion se muestran todos los atributos posibles, para HTML, su valor es de tipo *Script*.
+
+== Atributos de eventos de Windows
+Todos los siguientes atributos se aplican en la etiqueta <body>
+
+- *onafterprint:* Script que se ejecuta luego de imprimir algun documento.
+- *onbeforeprint:* Script que se ejecuta antes de imprimir algun documento.
+- *onbeforeunload:* Script que se ejecuta cuando el documento estéa punto de cargarse.
+- *onerror:* Script que se ejecuta cuando ocurre algún error.
+- *onhashchange:* Script que se ejecutará cuando haya habido cambios en la parte de anclaje de una URL
+- *onload:* Se ejecutará cuando haya cargado la página.
+- *onmessage:* Script que se ejecutará cuando se haya ejecutado un mensaje (trigger).
+- *onoffline:* Script que se ejecutará cuando se empiece a trabajar sin conexión a internet.
+- *ononline:* Script que se ejecutará cuando se empiece a trabajar con conexión a internet.
+- *onpagehide:* Script que se ejecutará cuando se navegue en otra página.
+- *onpageshow:* Script que se ejecutará cuando se empiece a navegar en la página.
+- *onpopstate:* Script que se ejecutará cuando se cambie el historial del windows.
+- *onresize:* Se ejecutará cuando la ventana del navegador se modifiquie de tamano.
+- *onstorage:* Script que se ejecutará cuando se actualice un almacenamiento WEB.
+- *onunload:* Script que se ejecutará cuando no se cargue la página, o se haya cerrado.
+
+== Atributos de eventos de Formas
+Los siguientes atributos se aplican cuando ocurre una accion dentro del mismo HTML y se aplica a todos sus elementos.
+
+- *onblur:* Se ejecutará cuando se pierda enfoque en el elemento.
+- *onchange:* Se ejecutará cuando el valor del elemento se modifique.
+- *oncontextmenu:* Script que se ejecutará cuando se 
+lanze un menú de contexto.
+- *onfocus:* Se ejecutará cuando un elemento empiece a tener enfoque.
+- *oninput:* Script que se ejecutará cuando se obtenga una entrada del usuario.
+- *oninvalid:* Script que se ejecutará cuando un elemento sea invalido.
+- *onreset:* Se ejecutará cuando se presione el boton de reset en la forma.
+- *onsearch:* Se ejecutará cuando el usuario escriba algo dentro del campo de busqueda *(for <input="search">)*.
+- *onselect:* Se ejecutará cuando se seleccione algun elemento en la forma.
+- *onsubmit:* Se ejecutará cuando se envie una forma.
+
+== Atributos de eventos de Teclado
+
+- *onkeydown:* Se ejecutará cuando se este presionando continuamente una tecla.
+- *onkeypress:* Se ejecutará cuando se presione una tecla.
+- *onkeyup:* Se ejecutará cuando se deje de presionar una tecla.
+
+== Atributos de eventos de Raton
+
+- *onclick:* Se ejecutará cuando se de click a un elemento.
+- *ondblclick:* Se ejecutará cuando se de doble click en un elemento.
+- *on mouse down:* Se ejecutará cuando se presione cualquier boton del raton.
+- *onmousemove:* Se ejecutará cuando se este moviendo el raton encima de un elemento.
+- *onmouseout:* Se ejecutará cuando se mueva el raton fuera de un elemento.
+- *onmouseover:* Se ejecutará cuando se mueva el raton dentro de un elemento.
+- *onwheel:* Se ejecutará cuando se ruede el raton hacia abajo o hacia arriba.
+
+== Atributos de eventos de Arrastre
+
+- *ondrag:* Se ejecutará cuando se este arrastrando el elemento.
+- *ondragend:* Se ejecutará cuando se deje de arrastrar el elemento.
+- *ondragend:* Se ejecutará cuando se arrastre el elemento a un destino definido.
+- *ondragleave:* Se ejecutará cuando se deje de arrastrar un elemento hacia un destino valido.
+- *ondragover:* Se ejecutará cuando se esta arrastreando por encima de un destino valido de arrastre.
+- *ondragstart:* Se ejecutará cuando se comience a arrastrar un elemento.
+- *ondrop:* Se ejecutará cuando se suelte un elemento que haya estado siendo arrastrado.
+- *onscroll:* Se ejecutará cuando la barra de scroll este siendo usada.
+
+== Atributos de eventos de Portapapeles
+
+- *oncopy:* Se ejecutará cuando se copie parte de un elemento.
+- *oncut:* Se ejecutará cuando se intente cortar parte de un elemento.
+- *onpaste:* Se ejecutará cuando se intente pegar contenido dentro o en el elemento.
+
+== Atributos de eventos de Media
+
+- *onabort:* Script que se ejecutará cuando ocurra un aborto o interrupcion.
+- *oncanplay:* Script que se ejecutará cuando listo para ejecutarse.
+- *oncanplaythrough:* Script que se ejecutará cuando un archivo este listo para ejecutarse hasta el final, sin ser interrumpido o abortado.
+- *oncuechange:* Script que se ejecutará cuando se cambie la senal de un elemento <track>.
+- *ondurationchange:* Script que se ejecutará cuando la longitud del archivo media cambie.
+- *onemptied:* Script que se ejecutará cuando algo malo suceda con el archivo y se encuentre inavitable.
+- *onended:* Script que se ejecutará cuando el archivo llegue a su fin de ejecucion.
+- *onerror:* Script que se ejecutará cuando ocurra un error mientras el archivo cargaba.
+- *onloadeddata:* Script que se ejecutará cuando el archivo de media termine de cargarse.
+- *onloadedmetadata:* Script que se ejecutará cuando un metadata termine de cargarse (dimension y duracion).
+- *onloadstart:* Script que se ejecutará cuando el archivo comienza a utilizarse.
+- *onpause:* Script que se ejecutará cuando el archivo de media esta en pausa.
+- *onplay:* Script que se ejecutará cuando el archivo de media se comienza a reproducir.
+- *onplaying:* Script que se ejecutará cuando el archivo de media se esta reproduciendo.
+- *onprocess:* Script que se ejecutará cuando se este en proceso de obtener datos del archivo de media.
+- *onratechange:* Script que se ejecutará cuando la velocidad de transmision cambie del archivo de media.
+- *onseeked:* Script que se ejecutará cuando el proceso de busqueda se detenga.
+- *onseeking:* Script que se ejecutará cuando el proceso de busqueda comience
+- *onstalled:* Script que se ejecutará cuando no se pueda acceder al proceso de busqueda por cualquier razon.
+- *onsuspend:* Script que se ejecutará cuando el proceso de busqueda se haya detenido inesperadamente por cualquier razon.
+- *ontimeupdate:* Script que se ejecutará cuando la posicion de reproduccion cambie de lugar.
+- *onvolumechange:* Script que se ejecutará cuando el volumen de la reproduccion cambie o se ponga en estado mute.
+- *onwaiting:* Script que se ejecutará cuando el reproductor se detenga inesperadamente y por cualquier razon, pero pueda volver a reproducirse.
+
+== Atributos de eventos de Miscelaneo
+
+- *ontoggle:* Se ejecutará cuando se abra de o cierre el elemento <details>.
