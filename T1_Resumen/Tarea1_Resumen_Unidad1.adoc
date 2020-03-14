@@ -2,7 +2,7 @@
 Jaime Andrés Cortina Rangel #17100196
 
 === Modelo de caja
-El modelo de caja se utiliza en el css y sirve para definir las 4 partes que conforman una caja en una página web. + 
+El modelo de caja se utiliza en el css y sirve para definir las 4 partes que conforman una caja en una página web + 
 
 === Content, Padding, Border, Margin y Outline
 - La parte central e interna, es el **content* y aquí reside el contenido real a utilizar y mostrar en la página, como texto e imágenes.
