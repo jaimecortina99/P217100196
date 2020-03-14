@@ -94,6 +94,6 @@ lanze un menú de contexto.
 - *onvolumechange:* Script que se ejecutará cuando el volumen de la reproduccion cambie o se ponga en estado mute.
 - *onwaiting:* Script que se ejecutará cuando el reproductor se detenga inesperadamente y por cualquier razon, pero pueda volver a reproducirse.
 
-== Atributos de eventos de Miscelaneo
+== Atributos de eventos de Miscelaneo.
 
 - *ontoggle:* Se ejecutará cuando se abra de o cierre el elemento <details>.
